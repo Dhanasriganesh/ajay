@@ -1,0 +1,19 @@
+/*@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}*/
+.Work {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap items to the start of the container */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+    padding: 20px; /* Add padding to the container */
+    
+  }
+ 
+
+  
